@@ -1,13 +1,42 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{background-color: rgb(227, 142, 142);}
+.createaccount{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: papayawhip;
+  height:70vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.landingpage>div{
+  margin-top: 0;
+  color:white;
+  background-color:black;
+  text-align: center;
+  justify-content: center;
+width:100%;
+}
+.landingpage{
+  margin:0;
+}
+.landingpage>p{
+  background-image: url("https://makeinbusiness.com/wp-content/uploads/2020/01/rentals.jpg");
+}
+.rooms{
+  display:flex;
+  flex-wrap: wrap;
+}
+.room_img{
+  width:300px;
+  object-fit: contain;
+ 
+}
+.room_container{
+  width:300px;
+  margin:5px;
+  text-align: center;
+  border:1px solid black;
+}
+.navbar_container{
+  height:60px;
 }
